@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <title>Kims- Surgicals</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/font-awesome5.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/main2.css" class="color-switcher-link">
+    <link rel="stylesheet" href="css/shop2.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--====== Preloader Area Start ======-->
+    <!-- <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div> -->
+
+    <!-- Login POpup -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+                </div>
+                <div class="modal-body">
+                    <button class="btn btn-maincolor" type="submit" onclick="redirectMfacLogin();return false;">Company Login</button>
+                    <button class="btn btn-maincolor" type="submit" onclick="redirectCustLogin();return false;">Customer Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <!--topline section visible only on small screens|-->
+
+            <section class="page_topline topline-1 s-borderbottom py-9">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12 text-md-left text-center ">
+                            <span class="social-icons">
+								<a href="#" class="fab fab fa-facebook-f " title="facebook"></a>
+								<a href="https://www.instagram.com/kimsgroupofcompanies/?r=nametag" class="fab fa-instagram " target="_blank"></a>
+								<a href="#" class="fab fa-twitter " title="twitter"></a>
+							</span>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-md-end justify-content-center align-items-center">
+                            <div class="login-modal">
+                                <a class="login-form-btn" href="#" data-toggle="modal" data-target="#exampleModalCenter" style="color: #fff;"><i class="fa fa-user mr-1"></i> Login</a>
+                            </div>
+                            <!--search bar-->
+                            <div class="dropdown widget_search">
+                                <a class="dropdown-toggle dropdown-toggle-split" href="#" id="headerSearchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-search"></i>
+                                </a>
+
+                                <div class="dropdown-menu ls ms " aria-labelledby="headerSearchDropdown">
+                                    <form role="search" method="get" class="search-form" action="/">
+                                        <label for="search-form-top">
+											<span class="screen-reader-text">Search for:</span>
+										</label>
+                                        <input type="search" id="search-form-top" class="search-field" placeholder="Search keyword.." value="" name="search">
+                                        <button type="submit" class="search-submit">
+											<span class="screen-reader-text">Search</span>
+										</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- header with two Bootstrap columns - left for logo and right for navigation -->
+            <header class="page_header header-1 ls s-py-20 ">
+
+                <div class="container">
+
+                    <div class="row ">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8 col-12">
+                            <a href="index.html" class="logo">
+                                <img src="img/kims_logos/kims-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-8 col-sm-4 col-12 d-flex align-items-center justify-content-end ">
+                            <!-- main nav start -->
+                            <nav class="top-nav">
+                                <ul class="nav sf-menu">
+
+
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="surgical.html">Surgical</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#services">services</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#gallery">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+
+
+                            </nav>
+                            <!-- eof main nav -->
+                        </div>
+
+                    </div>
+                    <!-- header toggler -->
+                    <span class="toggle_menu"><span></span></span>
+
+                </div>
+
+            </header>
+
+            <!-- breadcrumb -->
+            <section class="page_title ds s-parallax s-overlay s-py-65">
+                <div class="s-blur"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-sm-left">
+                            <h1>Kims Surgical</h1>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="./">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Surgical
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Surgical Product Section -->
+            <section class="ls section-surgical s-py-xl-140 s-py-lg-130 s-py-md-90 s-py-60 text-center text-sm-left">
+                <div class="container">
+                    <div class="row">
+                        <!-- products -->
+                        <div class="col-xl-9 col-lg-8 order-lg-2">
+                            <header class="product-grid-header">
+                                <h3><span>Surgical Products</span></h3>
+                                <div class="d-flex align-items-center">
+                                    <span class="d-inline-block mr-2">Sort by</span>
+                                    <div class="dropdown bootstrap-select">
+                                        <select name="sort" id="form_sort" data-style="select-picker" class="selectpicker" tabindex="-98">
+                                            <option value="default">Default</option>
+                                            <option value="">Low to High</option>
+                                            <option value="">High to Low</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </header>
+                            <div class="tab-content account-box" id="v-pills-tabContent">
+                                <!-- Anesthesia Products -->
+                                <div class="tab-pane fade show active" id="v-pills-disposable" role="tabpanel" aria-labelledby="v-pills-disposable-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/anesthesia/Ventilator-Circuit.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Ventilator Circuit</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""> <img src="img/surgical-products/anesthesia/Reinforced-endotracheal-tube.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Re-inforced Endotracheal Tube</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/anesthesia/PaedanesthesiaCircuit-1.png" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6> Paediatric Anesthesia Circuit </h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/anesthesia/Power-Drool.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Power Drool</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/anesthesia/Oxy-Lock.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Oxy Lock</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""> <img src="img/surgical-products/anesthesia/Guedel.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Guedel Airways</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/anesthesia/Flexi-Mask.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Flexi Mask</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/anesthesia/CVPManometer-1.png" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>C.V.P Manometer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Cardiac Products -->
+                                <div class="tab-pane fade" id="v-pills-healthcare" role="tabpanel" aria-labelledby="v-pills-healthcare-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Respirometer.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Respirometer</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Silicone-Flexo-Cath.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Silicone Flexo Cath</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Romoseal-Pro.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Romo Seal Pro</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Breazer.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Breazer</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Romoseal.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Romo Seal</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Flexo-Cath.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Flexo-Cath</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/cardiac/Mistair.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Mistair</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Gastro Products -->
+                                <div class="tab-pane fade" id="v-pills-Furniture" role="tabpanel" aria-labelledby="v-pills-Furniture-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/gastro/Feedy-1.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Feedy</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/gastro/Gastrolene-Plus.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Gastrolene</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/gastro/Colo-Bag.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Colo Bag</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/gastro/Fee-Bag.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Fee Bag</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/gastro/Gastrolene-Pur.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Gastrolene-Pur</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/gastro/Romolene.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Romolene</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Miscellaneous -->
+                                <div class="tab-pane fade" id="v-pills-Dressing" role="tabpanel" aria-labelledby="v-pills-Dressing-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/miscellaneous/Trimmer.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Trimmer</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/miscellaneous/Klik-Clamp.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Klik Clamp</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/miscellaneous/Respirometer.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Respirometer </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Surgery Products -->
+                                <div class="tab-pane fade" id="v-pills-Rehabilitation" role="tabpanel" aria-labelledby="v-pills-Rehabilitation-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Romo-Vac-Set.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Romo Vac Set</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Conductive-Suction-Tube.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Conductive Suction Tube</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Suction-Connecting-Tube.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Suction Connecting Tube</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Vaccu-Suck-Suction-Set.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Vaccu Suck</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Romoseal.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Romo Seal</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Chest-Drainage-Catheter.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Chest Drainage Catheter</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Thoriac-Trocar-Cathreter.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Thoracic Trocar Catheter</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/surgery/Yankaur-Suction-Set.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Yankaur Suction Set</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Transfusion -->
+                                <div class="tab-pane fade" id="v-pills-Fitness" role="tabpanel" aria-labelledby="v-pills-Fitness-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/CVPManometer-1.png" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">C.V.P Manomete</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/VolumetricPlus-1-1024x1024.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Volumetric</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Exteena-Family.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Exteena Family</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Steriflo-with-PM.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Steriflo Plus</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Intraflon.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Intraflon</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Vein-O-Line-Marvel.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Vein-O-Line Marvel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Vein-O-line.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Vein-O-Line Sgs</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/PMO-Line.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">PM-O-Line</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/HiiLineSpiral.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Hi Line Spiral</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Umbilical-cathreter.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Umbilical Catheter</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/P.D.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Peritoneal Dialysis Catheter Set</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Centro.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Centro</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Intra-Shield.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Intra Shield</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Bi-Valve.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Bi-Valve</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Exxacta.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Exxacta</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/transfusion/Volufix-Plus.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Volufix Plus</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Urology -->
+                                <div class="tab-pane fade" id="v-pills-wheelchair" role="tabpanel" aria-labelledby="v-pills-wheelchair-tab">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/urometer/Urometer-500.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6 class="text-sm">Urometer- 500</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""> <img src="img/surgical-products/urometer/Urometer.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Urometer</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/urometer/Nelaton-Catheter.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Nelaton Catheter</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/urometer/Foley-Trac.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Uro Cath</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""><img src="img/surgical-products/urometer/Urine-bags.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Urine Collecting Bags</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href=""> <img src="img/surgical-products/urometer/Male-Cath.jpg" alt=""></a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Male Cath</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <a href="">
+                                                        <img src="img/surgical-products/urometer/Sil-Cath.jpg" alt="">
+                                                    </a>
+                                                    <ul class="social">
+                                                        <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="" data-tip="Add To Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <h6>Sil Cath</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tabs sidebar-->
+                        <div class="sidebar col-xl-3 col-lg-4 pr-xl-5 order-lg-1">
+                            <h5 class="sidebar-heading d-none d-lg-block">Category</h5>
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-disposable-tab" data-toggle="pill" href="#v-pills-disposable" role="tab" aria-controls="v-pills-disposable" aria-selected="true">Anesthesia</a>
+                                <a class="nav-link" id="v-pills-healthcare-tab" data-toggle="pill" href="#v-pills-healthcare" role="tab" aria-controls="v-pills-healthcare" aria-selected="false">Cardic</a>
+                                <a class="nav-link" id="v-pills-Furniture-tab" data-toggle="pill" href="#v-pills-Furniture" role="tab" aria-controls="v-pills-Furniture" aria-selected="false">Gastro</a>
+                                <a class="nav-link" id="v-pills-Dressing-tab" data-toggle="pill" href="#v-pills-Dressing" role="tab" aria-controls="v-pills-Dressing" aria-selected="false">Miscellaneous</a>
+                                <a class="nav-link" id="v-pills-Rehabilitation-tab" data-toggle="pill" href="#v-pills-Rehabilitation" role="tab" aria-controls="v-pills-Rehabilitation" aria-selected="false">Surgery</a>
+                                <a class="nav-link" id="v-pills-Fitness-tab" data-toggle="pill" href="#v-pills-Fitness" role="tab" aria-controls="v-pills-Fitness" aria-selected="false">Transfusion</a>
+                                <a class="nav-link" id="v-pills-wheelchair-tab" data-toggle="pill" href="#v-pills-wheelchair" role="tab" aria-controls="v-pills-wheelchair" aria-selected="false">Urology</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- company section -->
+            <section class="ls shop-categories-section s-pt-xl-65 s-pt-lg-65 s-pt-md-65 s-pt-65 s-pb-xl-65 s-pb-lg-65 s-pb-md-65 s-pb-65">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="owl-carousel shop-categories-carousel" data-center="false" data-nav="false" data-margin="30" data-loop="true" data-autoplay="true" data-responsive-lg="4" data-responsive-md="4" data-responsive-sm="2" data-responsive-xs="1">
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/3m.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/bd.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/bruan.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/bsn.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/dynamic.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/hmd.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/kanam.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/morepen.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/philips.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/ramraj.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/romsons.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/safti.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/sevana.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/surgical-brands/tynor.png" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer class="page_footer text-center text-sm-left  ds ms s-pt-60 s-pb-60 s-pt-md-85 s-pb-md-90 s-pt-lg-125 s-pb-lg-130 s-pt-xl-150 s-pb-xl-145 c-gutter-30 s-parallax c-mb-50 c-mb-lg-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-4 col-md-6  animate" data-animation="fadeInUp">
+                            <a href="index.html" class="logo">
+                                <img src="img/kims_logos/kims-logo_footer.png" alt="">
+                            </a>
+                            <p>
+                                KIMS Pharmaceuticals is an accredited medical and pharmaceuticals wholesale distributors based in Malappuram in Kerala, India with services covering most of Thrissur To Kasargod districts.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 animate" data-animation="fadeInUp">
+
+                            <div class="widget widget_nav_menu mb-0">
+                                <h3 class="widget-title">Networks</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Kims Pharmaceuticals</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Bismik</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Gold</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Petroleum</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 animate" data-animation="fadeInUp">
+                            <div class="widget widget_mailchimp">
+
+                                <h3 class="widget-title">Subscribe</h3>
+
+                                <p>
+                                    Be notified about new location
+                                </p>
+
+                                <form class="signup" action="/">
+                                    <label for="mailchimp_email">
+										<span class="screen-reader-text">Subscribe:</span>
+									</label>
+
+                                    <input id="mailchimp_email" name="email" type="email" class="form-control mailchimp_email" placeholder="Email">
+
+                                    <button type="submit" class="search-submit">
+										<span class="screen-reader-text">Subscribe</span>
+									</button>
+                                    <div class="response"></div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-0 animate" data-animation="fadeInUp">
+
+                            <div class="widget widget_icons_list">
+                                <h3 class="widget-title">Contact info</h3>
+                                <ul>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <p>Kims & Bismik Medical Agencies <br> Market Road, Kottakal <br> Malappuram Dt, Kerala</p>
+                                    </li>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-headphones-alt"></i>
+                                        </div>
+                                        <p>+91 9946211250</p>
+                                    </li>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <p>
+                                            <a href="#">kimsktkl@gmail.com</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+            <section class="page_copyright ds ms s-py-15 s-bordertop">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-12 text-center">
+                            <p>&copy; Copyright <span class="copyright_year">2020</span> All Rights Reserved</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

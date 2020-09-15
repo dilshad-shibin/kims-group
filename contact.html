@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <title>Kims- Contact</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/font-awesome5.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/main2.css" class="color-switcher-link">
+    <link rel="stylesheet" href="css/shop2.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--====== Preloader Area Start ======-->
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    <!-- Login POpup -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+                </div>
+                <div class="modal-body">
+                    <button class="btn btn-maincolor" type="submit" onclick="redirectMfacLogin();return false;">Company Login</button>
+                    <button class="btn btn-maincolor" type="submit" onclick="redirectCustLogin();return false;">Customer Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pay Online POpup -->
+    <div class="modal fade" id="PayOnline" tabindex="-1" role="dialog" aria-labelledby="PayOnlineTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Pay Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="body-content"><img src="img/q_code.jpg" alt="" style="width: 60%;height: 440px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Side Button -->
+    <!-- <div class="fixed-side-btn">
+        <a href="" class="btn-stylish" data-toggle="modal" data-target="#PayOnline">Pay Online</a>
+    </div> -->
+
+
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <!--topline section visible only on small screens|-->
+
+            <section class="page_topline topline-1 s-borderbottom py-9">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12 text-md-left text-center ">
+                            <span class="social-icons">
+								<a href="#" class="fab fab fa-facebook-f " title="facebook"></a>
+								<a href="https://www.instagram.com/kimsgroupofcompanies/?r=nametag" class="fab fa-instagram " target="_blank"></a>
+								<a href="#" class="fab fa-twitter " title="twitter"></a>
+							</span>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-md-end justify-content-center align-items-center">
+                            <div class="login-modal">
+                                <a class="login-form-btn" href="#" data-toggle="modal" data-target="#exampleModalCenter" style="color: #fff;"><i class="fa fa-user mr-1"></i> Login</a>
+                            </div>
+                            <!--search bar-->
+                            <div class="dropdown widget_search">
+                                <a class="dropdown-toggle dropdown-toggle-split" href="#" id="headerSearchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-search"></i>
+                                </a>
+
+                                <div class="dropdown-menu ls ms " aria-labelledby="headerSearchDropdown">
+                                    <form role="search" method="get" class="search-form" action="/">
+                                        <label for="search-form-top">
+											<span class="screen-reader-text">Search for:</span>
+										</label>
+                                        <input type="search" id="search-form-top" class="search-field" placeholder="Search keyword.." value="" name="search">
+                                        <button type="submit" class="search-submit">
+											<span class="screen-reader-text">Search</span>
+										</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- header with two Bootstrap columns - left for logo and right for navigation -->
+            <header class="page_header header-1 ls s-py-20 ">
+
+                <div class="container">
+
+                    <div class="row ">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8 col-12">
+                            <a href="index.html" class="logo">
+                                <img src="img/kims_logos/kims-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-8 col-sm-4 col-12 d-flex align-items-center justify-content-end ">
+                            <!-- main nav start -->
+                            <nav class="top-nav">
+                                <ul class="nav sf-menu">
+
+
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="surgical.html">Surgical</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#services">services</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#gallery">Gallery</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+
+
+                            </nav>
+                            <!-- eof main nav -->
+                        </div>
+
+                    </div>
+                    <!-- header toggler -->
+                    <span class="toggle_menu"><span></span></span>
+
+                </div>
+
+            </header>
+
+            <!-- breadcrumb -->
+            <section class="page_title ds s-parallax s-overlay s-py-65">
+                <div class="s-blur"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-sm-left">
+                            <h1>Contact Us</h1>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="./">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Contact Us
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section class="ls ms page_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4735976764027!2d76.0023235142886!3d11.003049357979629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b4bac2bdd2d3%3A0x957eeef42b1d843!2sKIMS%20MEDICAL%20AGENCIES%2CPHARMACEUTICAL%20DISTRIBUTER!5e0!3m2!1sen!2sin!4v1593489072961!5m2!1sen!2sin"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+
+
+            <!-- Address section -->
+            <section class="ls s-py-xl-150 s-py-lg-130 s-py-md-90 s-py-60 c-mb-30 c-gutter-30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 col-12">
+                            <div class="media text-center text-sm-left">
+                                <div class="icon-styled color-main fs-28">
+                                    <img src="images/icons/icon1.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <h5>
+                                        Address
+                                    </h5>
+                                    <p>
+                                        Kims Medical Agencies <br> Market Road, Kottakkal, <br> Malappuram Dt, Kerala.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 col-12">
+                            <div class="media text-center text-sm-left">
+                                <div class="icon-styled color-main fs-28">
+                                    <img src="images/icons/icon3.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <h5>
+                                        Email Adress
+                                    </h5>
+                                    <p>
+                                        kimsktkl@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 col-12">
+                            <div class="media text-center text-sm-left">
+                                <div class="icon-styled color-main fs-28">
+                                    <img src="images/icons/icon4.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <h5>
+                                        Phone
+                                    </h5>
+                                    <p>
+                                        Call customer services <br> on (0483)274-5579 <br> on (0483)274-2303.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb--30"></div>
+                </div>
+            </section>
+
+            <!-- Contact section -->
+            <section id="contact" class="ls s-pb-xl-150 s-pb-lg-130 s-pb-md-90 s-pb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 animate" data-animation="scaleAppear">
+                            <div class="ds s-parallax s-overlay s-map-light py-60">
+                                <h4 class="special-heading text-center text-capitalize">Contact us</h4>
+                                <p class="special-heading text-center">Have You any Questions? Ask Us!</p>
+                                <div class="divider-50 hidden-below-md"></div>
+                                <div class="divider-20 hidden-above-md"></div>
+                                <form class="contact-form content-center c-mb-40 c-gutter-20" method="post" action="/">
+
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group has-placeholder">
+                                                <label for="name555">Full Name <span class="required">*</span></label>
+
+                                                <input type="text" aria-required="true" size="30" value="" name="name" id="name555" class="form-control" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group has-placeholder">
+                                                <label for="email555">Email address<span class="required">*</span></label>
+
+                                                <input type="email" aria-required="true" size="30" value="" name="email" id="email555" class="form-control" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group has-placeholder">
+                                                <label for="">Product Name <span class="required">*</span></label>
+
+                                                <input type="text" aria-required="true" size="30" value="" name="" id="" class="form-control" placeholder="Product Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group has-placeholder">
+                                                <label for="">Quantity<span class="required">*</span></label>
+
+                                                <input type="text" aria-required="true" size="30" value="" name="" id="" class="form-control" placeholder="Quantity">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group has-placeholder">
+                                                <label for="">Are You<span class="required">*</span></label>
+                                                <select name="" id="" class="form-control" aria-required="true">
+                                                    <option value="">Doctor</option>
+                                                    <option value="">Retailler</option>
+                                                    <option value="">Exporter</option>
+                                                    <option value="">other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 mb-0">
+                                            <div class="form-group has-placeholder">
+                                                <label for="message555">Message</label>
+                                                <textarea aria-required="true" rows="3" cols="45" name="message" id="message555" class="form-control" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 text-center">
+                                            <div class="form-group">
+                                                <input class="btn btn-maincolor" type="submit" value="Send Message">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                        </div>
+                        <!--.col-* -->
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <footer class="page_footer text-center text-sm-left  ds ms s-pt-60 s-pb-60 s-pt-md-85 s-pb-md-90 s-pt-lg-125 s-pb-lg-130 s-pt-xl-150 s-pb-xl-145 c-gutter-30 s-parallax c-mb-50 c-mb-lg-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-4 col-md-6  animate" data-animation="fadeInUp">
+                            <a href="index.html" class="logo">
+                                <img src="img/kims_logos/kims-logo_footer.png" alt="">
+                            </a>
+                            <p>
+                                KIMS Pharmaceuticals is an accredited medical and pharmaceuticals wholesale distributors based in Malappuram in Kerala, India with services covering most of Thrissur To Kasargod districts.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 animate" data-animation="fadeInUp">
+
+                            <div class="widget widget_nav_menu mb-0">
+                                <h3 class="widget-title">Networks</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Kims Pharmaceuticals</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Bismik</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Gold</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Petroleum</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 animate" data-animation="fadeInUp">
+                            <div class="widget widget_mailchimp">
+
+                                <h3 class="widget-title">Subscribe</h3>
+
+                                <p>
+                                    Be notified about new location
+                                </p>
+
+                                <form class="signup" action="/">
+                                    <label for="mailchimp_email">
+										<span class="screen-reader-text">Subscribe:</span>
+									</label>
+
+                                    <input id="mailchimp_email" name="email" type="email" class="form-control mailchimp_email" placeholder="Email">
+
+                                    <button type="submit" class="search-submit">
+										<span class="screen-reader-text">Subscribe</span>
+									</button>
+                                    <div class="response"></div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-0 animate" data-animation="fadeInUp">
+
+                            <div class="widget widget_icons_list">
+                                <h3 class="widget-title">Contact info</h3>
+                                <ul>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <p>Kims & Bismik Medical Agencies <br> Market Road, Kottakal <br> Malappuram Dt, Kerala</p>
+                                    </li>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-headphones-alt"></i>
+                                        </div>
+                                        <p>+91 9946211250</p>
+                                    </li>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <p>
+                                            <a href="#">kimsktkl@gmail.com</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+            <section class="page_copyright ds ms s-py-15 s-bordertop">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-12 text-center">
+                            <p>&copy; Copyright <span class="copyright_year">2020</span> All Rights Reserved</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

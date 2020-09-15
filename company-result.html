@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <title>Kims- CompanyResult</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/font-awesome5.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/main2.css" class="color-switcher-link">
+    <link rel="stylesheet" href="css/shop2.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- data table  -->
+    <link rel="stylesheet" href="js/vendor/dataTables.bootstrap4.min.css">
+
+</head>
+
+<body>
+
+    <!--====== Preloader Area Start ======-->
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    <!-- Login POpup -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+                </div>
+                <div class="modal-body">
+                    <button class="btn btn-maincolor" type="submit" onclick="redirectMfacLogin();return false;">Company Login</button>
+                    <button class="btn btn-maincolor" type="submit" onclick="redirectCustLogin();return false;">Customer Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pay Online POpup -->
+    <div class="modal fade" id="PayOnline" tabindex="-1" role="dialog" aria-labelledby="PayOnlineTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Pay Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="body-content"><img src="img/q_code.jpg" alt="" style="width: 60%;height: 440px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Side Button -->
+    <div class="fixed-side-btn">
+        <a href="" class="btn-stylish" data-toggle="modal" data-target="#PayOnline">Pay Online</a>
+    </div>
+
+
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <!--topline section visible only on small screens|-->
+
+            <section class="page_topline topline-1 s-borderbottom py-9">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12 text-md-left text-center ">
+                            <span class="social-icons">
+								<a href="#" class="fab fab fa-facebook-f " title="facebook"></a>
+								<a href="https://www.instagram.com/kimsgroupofcompanies/?r=nametag" class="fab fa-instagram " target="_blank"></a>
+								<a href="#" class="fab fa-twitter " title="twitter"></a>
+							</span>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-md-end justify-content-center align-items-center">
+                            <div class="login-modal">
+                                <a class="login-form-btn" href="#" data-toggle="modal" data-target="#exampleModalCenter" style="color: #fff;"><i class="fa fa-user mr-1"></i> Login</a>
+                            </div>
+                            <!--search bar-->
+                            <div class="dropdown widget_search">
+                                <a class="dropdown-toggle dropdown-toggle-split" href="#" id="headerSearchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-search"></i>
+                                </a>
+
+                                <div class="dropdown-menu ls ms " aria-labelledby="headerSearchDropdown">
+                                    <form role="search" method="get" class="search-form" action="/">
+                                        <label for="search-form-top">
+											<span class="screen-reader-text">Search for:</span>
+										</label>
+                                        <input type="search" id="search-form-top" class="search-field" placeholder="Search keyword.." value="" name="search">
+                                        <button type="submit" class="search-submit">
+											<span class="screen-reader-text">Search</span>
+										</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- header with two Bootstrap columns - left for logo and right for navigation -->
+            <header class="page_header header-1 ls s-py-20 ">
+
+                <div class="container">
+
+                    <div class="row ">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8 col-12">
+                            <a href="index.html" class="logo">
+                                <img src="img/kims_logos/kims-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-8 col-sm-4 col-12 d-flex align-items-center justify-content-end ">
+                            <!-- main nav start -->
+                            <nav class="top-nav">
+                                <ul class="nav sf-menu">
+
+
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="surgical.html">Surgical</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#services">services</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#gallery">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+
+
+                            </nav>
+                            <!-- eof main nav -->
+                        </div>
+
+                    </div>
+                    <!-- header toggler -->
+                    <span class="toggle_menu"><span></span></span>
+
+                </div>
+
+            </header>
+
+            <!-- breadcrumb -->
+            <section class="page_title ds s-parallax s-overlay s-py-65">
+                <div class="s-blur"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-sm-left">
+                            <h1>Product List</h1>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="./">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Product List
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- brand section -->
+            <section class="s-pt-xl-35 s-pt-lg-35 s-pt-md-35 s-pt-35 s-pb-xl-35 s-pb-lg-35 s-pb-md-35 s-pb-35">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Product Listing</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-hover" id="dataTable" width="100%">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="bg-success color-black">No</th>
+                                                    <th scope="col" class="bg-success color-black">Product Name</th>
+                                                    <th scope="col" class="bg-success color-black">Company Name</th>
+                                                    <th scope="col" class="bg-success color-black">Drug Name</th>
+                                                    <th scope="col" class="bg-success color-black">Enquiry</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>CALPOL 250MG SUSP 60ML</td>
+                                                    <td>WINOPAR 250MG SYP</td>
+                                                    <td>INTRA LABS LTD</td>
+                                                    <td><a href="contact.html#contact"><i class="fa fa-cloud-download-alt"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>CALPOL 250MG SUSP 60ML</td>
+                                                    <td>DOLET SUSP</td>
+                                                    <td>BIONOVA LIFESCIENCES</td>
+                                                    <td><a href="contact.html#contact"><i class="fa fa-cloud-download-alt"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>CALPOL 250MG SUSP 60ML</td>
+                                                    <td>PARANEXT SYP</td>
+                                                    <td>ZEE LABORATORIES LTD (BIONEXT)</td>
+                                                    <td><a href="contact.html#contact"><i class="fa fa-cloud-download-alt"></i></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- company section -->
+            <section class="ls shop-categories-section s-pt-xl-65 s-pt-lg-65 s-pt-md-65 s-pt-65 s-pb-xl-65 s-pb-lg-65 s-pb-md-65 s-pb-65">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="owl-carousel shop-categories-carousel" data-center="false" data-nav="false" data-margin="30" data-loop="true" data-autoplay="true" data-responsive-lg="4" data-responsive-md="4" data-responsive-sm="2" data-responsive-xs="1">
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/alkem-logo.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/aristo-logo.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/Blue-cross-lab.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/Cipla_logo.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/gsk-logo.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/indoco-logo.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/intas_head.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/lupin.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/torrent-pharma.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="vertical-item text-center">
+                                    <div class="item-media post-thumbnail">
+                                        <a href="error.html">
+                                            <img src="img/kims-companyLogos/usv.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <footer class="page_footer text-center text-sm-left  ds ms s-pt-60 s-pb-60 s-pt-md-85 s-pb-md-90 s-pt-lg-125 s-pb-lg-130 s-pt-xl-150 s-pb-xl-145 c-gutter-30 s-parallax c-mb-50 c-mb-lg-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-4 col-md-6  animate" data-animation="fadeInUp">
+                            <a href="index.html" class="logo">
+                                <img src="img/kims_logos/kims-logo_footer.png" alt="">
+                            </a>
+                            <p>
+                                KIMS Pharmaceuticals is an accredited medical and pharmaceuticals wholesale distributors based in Malappuram in Kerala, India with services covering most of Thrissur To Kasargod districts.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 animate" data-animation="fadeInUp">
+
+                            <div class="widget widget_nav_menu mb-0">
+                                <h3 class="widget-title">Networks</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Kims Pharmaceuticals</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Bismik</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Gold</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kims Petroleum</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 animate" data-animation="fadeInUp">
+                            <div class="widget widget_mailchimp">
+
+                                <h3 class="widget-title">Subscribe</h3>
+
+                                <p>
+                                    Be notified about new location
+                                </p>
+
+                                <form class="signup" action="/">
+                                    <label for="mailchimp_email">
+										<span class="screen-reader-text">Subscribe:</span>
+									</label>
+
+                                    <input id="mailchimp_email" name="email" type="email" class="form-control mailchimp_email" placeholder="Email">
+
+                                    <button type="submit" class="search-submit">
+										<span class="screen-reader-text">Subscribe</span>
+									</button>
+                                    <div class="response"></div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-0 animate" data-animation="fadeInUp">
+
+                            <div class="widget widget_icons_list">
+                                <h3 class="widget-title">Contact info</h3>
+                                <ul>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <p>Kims & Bismik Medical Agencies <br> Market Road, Kottakal <br> Malappuram Dt, Kerala</p>
+                                    </li>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-headphones-alt"></i>
+                                        </div>
+                                        <p>+91 9946211250</p>
+                                    </li>
+                                    <li class="icon-inline">
+                                        <div class="icon-styled icon-top color-main fs-14">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <p>
+                                            <a href="#">kimsktkl@gmail.com</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+            <section class="page_copyright ds ms s-py-15 s-bordertop">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-12 text-center">
+                            <p>&copy; Copyright <span class="copyright_year">2020</span> All Rights Reserved</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+    <!-- datatable -->
+
+    <script src="js/vendor/jquery.dataTables.min.js"></script>
+    <script src="js/vendor/dataTables.bootstrap4.min.js"></script>
+    <script src="js/datatables-demo.js"></script>
+
+</body>
+
+</html>

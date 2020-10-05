@@ -1005,7 +1005,7 @@ input[type="radio"]:disabled+label:before {
 /* bootstrap tabs*/
 
 .nav-tabs {
-    border-bottom: 1px solid #ebc912;
+    border-bottom: 1px solid #27b3b2;
 }
 
 .nav-tabs .nav-item {
@@ -1053,15 +1053,15 @@ input[type="radio"]:disabled+label:before {
 }
 
 .nav-tabs .nav-link:hover {
-    background: #ebc912;
-    border-color: #ebc912;
+    background: #235196;
+    border-color: #235196;
     color: #fff;
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    background: #ebc912;
-    border-color: #ebc912;
+    background: #27b3b2;
+    border-color: #27b3b2;
     color: #fff;
 }
 
@@ -2436,7 +2436,7 @@ html[xmlns] .slides {
 
 .flex-control-paging li a.flex-active {
     background-color: #fff;
-    border-color: #ebc912;
+    /* border-color: #ebc912; */
     opacity: 1;
 }
 
@@ -3469,7 +3469,7 @@ a.pswp__share--download:hover {
 */
 
 #toTop {
-    background-color: #ebc912;
+    background-color: #27b3b2;
     border-radius: 50%;
     bottom: 30px;
     color: transparent;
@@ -9422,11 +9422,11 @@ body.boxed {
 }
 
 .btn-maincolor {
-    background-color: #ebc912;
+    background-color: #27b3b2;
 }
 
 .btn-maincolor2 {
-    background-color: #07a763;
+    background-color: #235196;
 }
 
 .btn-maincolor3 {
@@ -9436,6 +9436,11 @@ body.boxed {
 .btn-darkgrey {
     background-color: #f1f5f3;
     color: #073220;
+}
+.btn-maincolor2:hover {
+    background-color: #27b3b2 !important;
+    color: #fff !important;
+    border: 2px solid #235196;
 }
 
 
@@ -9661,7 +9666,7 @@ body.boxed {
 }
 
 .ls .btn-maincolor:hover {
-    background-color: #07a763;
+    background-color: #235196;
     color: #fff;
 }
 
@@ -9884,6 +9889,10 @@ body.boxed {
     color: #7a998c;
 }
 
+.ds-logo{
+    background: #27b3b2;
+}
+
 .ds * .ds {
     background-color: #041c12;
 }
@@ -9907,7 +9916,7 @@ body.boxed {
 }
 
 .ds a:not(.btn) {
-    color: #fff;
+    /* color: #fff; */
 }
 
 .ds a:not(.btn):hover {
@@ -9921,6 +9930,10 @@ body.boxed {
 .ds h5,
 .ds h6 {
     color: #fff;
+}
+
+.ds2 h2{
+    color: #000;
 }
 
 .ds h1 a,
@@ -11148,6 +11161,7 @@ body.boxed {
 .color-main {
     border-color: #ebc912;
     color: #ebc912;
+    color: #fff;
 }
 
 .color-main2 {
@@ -21077,7 +21091,7 @@ a img.aligncenter {
     }
     .ls .sf-menu>li>a:hover,
     .ls .sf-menu>li.active>a {
-        color: #ebc912;
+        color: #27b3b2;
     }
     .ls .sf-menu>li>a:hover:after {
         -webkit-transform: translateY(-50%) rotate(90deg);
@@ -21775,7 +21789,7 @@ a.logo img {
 
 .page_topline {
     line-height: 1.4;
-    background: #000;
+    background: #27b3b2;
 }
 
 .page_topline.small-text i {
@@ -21803,7 +21817,7 @@ a.logo img {
 }
 
 .page_topline .social-icons a:hover {
-    color: #07a763;
+    color: #000;
 }
 
 .page_topline .social-icons a:last-child {
@@ -22813,7 +22827,7 @@ body.active-side-header.slide-right .page_header_side {
     height: 50px;
     margin: 10px 0;
     opacity: 0.7;
-    width: 2px;
+    width: 5px;
 }
 
 .page_slider .flex-control-nav li a:hover {
@@ -22823,9 +22837,9 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .flex-control-nav li a.flex-active {
-    background: #ebc912;
+    background: #000;
     opacity: 1;
-    width: 4px;
+    width: 5px;
 }
 
 @media (min-width: 300px) {
@@ -24747,6 +24761,8 @@ img.absolute_image {
 
 .section-about {
     /* background: url("../images/about_bg.jpg") no-repeat center/cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {
@@ -26018,6 +26034,10 @@ img.absolute_image {
     margin: 0 25px;
 } */
 
+.login-form-btn:hover{
+    color: #000 !important;
+}
+
 .featured-items ul {
     -webkit-perspective: 1000px;
     perspective: 1000px;
@@ -26191,7 +26211,7 @@ img.absolute_image {
 
 .btn-stylish {
     background: none;
-    border: 2px solid #ebc912;
+    border: 2px solid #07322d;
     padding: 8px;
     display: block;
     text-align: center;
@@ -26211,7 +26231,7 @@ img.absolute_image {
     left: 0;
     width: 100%;
     height: 180%;
-    background: #ebc912;
+    background: #000;
     z-index: -1;
     transition: 0.6s;
     top: 0;
@@ -26320,7 +26340,7 @@ img.absolute_image {
 
 .product-grid .social li a:hover {
     color: #fff;
-    background-color: #ebc912;
+    background-color: #27b3b2;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5)
 }
 

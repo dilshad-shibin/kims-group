@@ -128,7 +128,7 @@ primary color [yelow- #ebc912] to [red- #ebc912]
     clear: both;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
     padding: 0;
 }
@@ -368,8 +368,8 @@ h3#order_review_heading {
 
 .button,
 [type="submit"] {
-    background-color: #ebc912;
-    border: 3px solid #ebc912;
+    background-color: #27b3b2;
+    border: 3px solid #27b3b2;
     border-radius: 5em;
     border-width: 2px;
     color: #fff;

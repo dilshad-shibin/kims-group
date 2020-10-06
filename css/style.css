@@ -21234,7 +21234,7 @@ a img.aligncenter {
 }
 
 .toggle_menu.mobile-active {
-    background-color: #ebc912;
+    background-color: #27b3b2;
     border: none;
     left: auto;
     margin: 0;
@@ -21315,8 +21315,8 @@ a img.aligncenter {
     }
     .sf-menu {
         background: url(../img/patterns/pattern0.png);
-        border-bottom: 61px solid #ebc912;
-        border-top: 62px solid #ebc912;
+        border-bottom: 61px solid #27b3b2;
+        border-top: 62px solid #27b3b2;
         bottom: 100%;
         display: block;
         font-size: 12px;
